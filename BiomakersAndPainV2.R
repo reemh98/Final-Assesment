@@ -5,7 +5,7 @@ library(readxl)
 library(dplyr)
 
 # Read the data files
-biomarkers <- read_excel("C:/Users/reemh/OneDrive/Documents/CAM MsC/Probability and Statistics/Rscript/biomarkers.xlsx")
+biomarkers <- read_excel("https://github.com/reemh98/Final-Assesment/blob/main/biomarkers.xlsx")
 covariates <- read_excel("C:/Users/reemh/OneDrive/Documents/CAM MsC/Probability and Statistics/Rscript/covariates.xlsx")
 
 # Separate Patient ID and Time Point, filter for week 0, and merge
